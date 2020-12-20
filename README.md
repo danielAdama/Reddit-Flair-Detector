@@ -1,7 +1,7 @@
 # Reddit-Flair-Detector
 Reddit Flair Detection App: An end-to-end Machine Learning Project
 
-Summary
+**Summary
 A flair is a 'label' that can be attached within a sub-reddit to posts shared on the Reddit website. They help users understand the group to which the posts they browse through belong, and hence help them sort out relevant posts depending on their interests.
 
 This web-app i created performs the task of predicting which flair should be alloted to a post. A user just need to paste the link of the reddit post in the search bar. 
@@ -11,5 +11,5 @@ Directory Structure
 Data Collected: India Subreddit data_1.csv-the data i scrapped from India subreddit
 Data Collection, Exploratory Data Analysis, Data Preprocessing, Data Visualization and Model Development are all on this file named Reddit Flair Detection project.ipynb
 
--inference.py: Inference Engine that runs the model and returns the predictions
--app.py:Contains the flask app
+**inference.py: Inference Engine that runs the model and returns the predictions
+**app.py:Contains the flask app
