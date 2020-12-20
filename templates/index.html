@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+
+<!DOCTYPE html>
+
+{%block content%}
+<html lang="en">
+    <header>
+        <h1> Enter the India Subreddit link </h1>
+    </header>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reddit Flair Detector</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <section class="main_content">
+        <div class="search">
+            <img src="Reddit Logo.PNG" alt="">
+            <form class="form-inline" action="{{ url_for('index') }}" method="POST" enctype="multipart/form-data">
+                <div class="form-group">
+                    <input type="url" placeholder="URL Post......." name="url" class="btn btn-default">
+                    <button id="btn">Submit</button>
+                </div>
+                <br>
+                <br>
+            </form>
+        </div>
+        <div class="footerimage"></div>
+    </section>
+</body>
+</html>
+
+{% endblock %}

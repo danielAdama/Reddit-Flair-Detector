@@ -1,0 +1,48 @@
+body{
+    background-color: white;
+}
+
+.main_content{
+    text-align: center;
+}
+.container
+{
+    padding-top: auto;
+    margin: auto;
+    width: auto;
+    height: 400;
+    background-image: url('Reddit Logo.PNG');
+    background-size: contain;
+    background-repeat: repeat;
+    /* background-blend-mode: color; */
+    background-color: orange;
+}
+button
+{
+    padding: 10px 30px;
+    border-radius: 20px;
+
+}
+header h1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+}
+section img{
+    padding: 45px;
+    border-radius: 40%;
+    width: 100px;
+}
+form input[type="url"]{
+    outline: none;
+    border-radius: 5px;
+    height: 20px;
+    width: 30%;
+}
+form input[type="submit"]{
+    outline: none;
+    border-radius: 5px;
+    height: 27px;
+    background-color: black;
+    color: white;
+}
