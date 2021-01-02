@@ -2,7 +2,6 @@ beautifulsoup4
 bs4
 certifi
 chardet
-dj-database-url==0.5.0
 gunicorn
 idna
 lxml
